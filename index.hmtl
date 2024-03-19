@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>A-Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header>
+    <div class="logo">LOGO</div>
+    <div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </div>
+    <div class="toolbar">
+       <!--Code pour la toolbar-->
+    </div>
+   </header>
+    
+   <div class="login-content">
+        <div class="Welcome-text">
+            <h1>BIENVENU(E)</h1>
+            <h3>sur notre application</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Perferendis doloribus cumque eum iusto, voluptatibus distinctio 
+                repellat quibusdam consectetur quae sunt quam animi iure, 
+                repudiandae possimus esse excepturi. Cumque, 
+                alias cupiditate. Quasi consequuntur assumenda id nam 
+                corrupti ipsam, quaerat in aut. Officia laboriosam sed, 
+                molestias rem vitae quibusdam quasi distinctio reprehenderit fuga. 
+            </p>
+        </div>
+
+   <!--Code pour le formulaire d'inscription-->
+   <div class="form">
+        <h5>Hey, inscris tes identifiants                                                                                                                                                                                                                                                                                                                                  et <br>  ensemble continuons l'aventure</h5>
+        <form action="#">
+            <div class="login-form">
+                <input type="text" placeholder="Nom d'utilisateur"><br><br>
+                <input type="password" placeholder="Mot de passe"><br><br>
+                <input type="submit" value="Se connecter">
+            </div>
+        </form>
+        <div class="or">
+            <hr style="width: 100px; border-top: 3px solid black; border: transparent">
+                OR
+            <hr style="width: 100px; border-top: 3px solid black; border: transparent;">
+        </div>
+        <form action="#">
+            <div class="signup-form">
+                <input type="text" placeholder="Nom(s)"><br><br>
+                <input type="text" placeholder="Prenom(s)"><br><br>
+                <input type="text" placeholder="Nom d'utilisateur"><br><br>
+                <input type="password" placeholder="Mot de passe"><br><br>
+                <input type="submit" value="S'inscrire">
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Debut du footer-->
+<footer>
+    <h6>Copyright 2024</h6>
+    <div class="footer-links">
+        <a href="#">Terms and conditions</a>
+        <a href="#">More</a>
+    </div>  
+</footer>
+<!-- Fin du footer-->
+
+</body>
+</html>
