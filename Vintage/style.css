@@ -1,0 +1,147 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-size: cover;
+    background-color: beige;
+}
+
+header{
+    display: flex;
+    background-color: rgb(201, 201, 144, 0.574);
+    justify-content: space-between;
+    padding: 15px 0 0 0;
+    background-size: cover;
+    position: relative;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 10px 0 0 0 ;
+}
+
+.logo-part{
+    display: inline-flex;
+}
+
+.logo-part img{
+    width: 15px;
+    height: 15px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    list-style: none;
+}
+
+a{
+    list-style: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.login-content{
+    display: flex;
+}
+
+.Welcome-text{
+    margin: 100px 0 0 100px;
+    width: 350px;
+    justify-content: space-around;
+}
+
+.Welcome-text h3{
+    text-decoration: overline;
+    padding: 20px 0 20px 0;
+}
+
+.form{
+    height: 500px;
+    width: 300px;
+    border: solid 4px;
+    border-radius: 15px 15px 15px 15px;
+    text-align: center;
+    margin: 35px 100px 0 350px;
+    padding: 15px 0 0 0;
+    backdrop-filter: inherit;
+    background-color: rgba(201, 201, 144, 0.574);
+}
+
+input {
+    border: none;
+    height: 22px;
+    width: 200px;
+    border-radius: 20px 20px 20px 20px;
+    padding-left: 10px;
+    text-decoration: wavy;
+}
+
+input[type="submit"]{
+    font-size: x-small;
+    height: 15px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.login-form{
+    height: auto;
+    width: auto;
+    border: solid 2px;
+    display: block;
+    justify-content: space-between;
+    margin: 40px 20px 0 20px;
+    border-radius: 15px 15px 15px 15px;
+    padding: 12px 0 12px 0;
+    background-color: rgb(195, 195, 174);
+}
+
+.or{
+    display: flex;
+    margin: 30px 30px 30px 30px;
+}
+
+.stick{
+    width: 15px;
+    height: 2px;
+    color: black;
+}
+
+.signup-form{
+    height: auto;
+    width: auto;
+    border-radius: 15px 15px 15px 15px;
+    border: solid 2px;
+    display: block;
+    justify-content: space-between;
+    margin: 0 20px 0 20px;
+    padding: 10px 0 10px 0;
+    background-color: rgb(195, 195, 174);
+}
+footer{
+    height: auto;
+    background-color:   rgb(201, 201, 144, 0.574);
+    margin: 70px 0 0 0 ;
+    text-align: center;
+    padding: 0 0 5px 0;
+    background-size: cover;
+}
+
+.footer-links a{
+    display: block;
+    font-size: 10px;
+    align-items: center;
+    text-decoration: none;
+    color: #211d1dd0;
+}
+
+footer h6{
+    padding: 5px 0 5px 0;
+}
