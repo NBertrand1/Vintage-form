@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Démo frontend responsive de formulaires de connexion et d'inscription.">
+  <meta name="theme-color" content="#f4eee3">
+  <title>Vintage — Espace membre</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="./index.html" aria-label="Vintage accueil">V<span>.</span></a>
+    <span class="header-note">ESPACE MEMBRE</span>
+  </header>
+  <main class="layout">
+    <section class="intro">
+      <p class="eyebrow">BIENVENUE DANS VOTRE ESPACE</p>
+      <h1>Un espace simple.<br><span>Une expérience claire.</span></h1>
+      <p>Cette interface est une démonstration frontend de formulaires de connexion et d'inscription. Elle permet de tester les interactions et la validation des champs.</p>
+      <p class="demo-note">Démo uniquement : aucun compte n'est créé et aucune authentification réelle n'est effectuée.</p>
+    </section>
+
+    <section class="auth-card" aria-label="Formulaires de compte">
+      <div class="tabs" role="tablist" aria-label="Choisir un formulaire">
+        <button class="tab active" id="login-tab" type="button" role="tab" aria-selected="true" aria-controls="login-panel">Connexion</button>
+        <button class="tab" id="signup-tab" type="button" role="tab" aria-selected="false" aria-controls="signup-panel">Inscription</button>
+      </div>
+
+      <form id="login-panel" class="auth-form" role="tabpanel" aria-labelledby="login-tab">
+        <p class="form-kicker">BON RETOUR</p>
+        <h2>Se connecter</h2>
+        <label for="login-username">Nom d'utilisateur</label>
+        <input id="login-username" name="username" type="text" autocomplete="username" placeholder="Votre nom d'utilisateur" required>
+        <label for="login-password">Mot de passe</label>
+        <input id="login-password" name="password" type="password" autocomplete="current-password" placeholder="Votre mot de passe" minlength="8" required>
+        <button class="submit-button" type="submit">Se connecter <span aria-hidden="true">→</span></button>
+      </form>
+
+      <form id="signup-panel" class="auth-form" role="tabpanel" aria-labelledby="signup-tab" hidden>
+        <p class="form-kicker">REJOIGNEZ-NOUS</p>
+        <h2>Créer un compte</h2>
+        <label for="signup-name">Nom complet</label>
+        <input id="signup-name" name="name" type="text" autocomplete="name" placeholder="Votre nom complet" required>
+        <label for="signup-email">Adresse e-mail</label>
+        <input id="signup-email" name="email" type="email" autocomplete="email" placeholder="nom@exemple.com" required>
+        <label for="signup-password">Mot de passe</label>
+        <input id="signup-password" name="password" type="password" autocomplete="new-password" placeholder="8 caractères minimum" minlength="8" required>
+        <button class="submit-button" type="submit">Créer mon compte <span aria-hidden="true">→</span></button>
+      </form>
+      <p id="form-feedback" class="feedback" role="status" aria-live="polite">Choisissez un formulaire pour commencer.</p>
+    </section>
+  </main>
+  <footer><span>VINTAGE FORM · FRONTEND DEMO</span><span>© 2026</span></footer>
+</body>
+</html>
